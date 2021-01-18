@@ -1,0 +1,116 @@
+<html lang="es">
+<head>
+    <title>
+        tabla de practica
+    </title>
+    <style>
+        table {
+            background:black;
+            color: #32aa2e;
+            border:1px solid blue;
+            margin: 100px auto;
+            background-color:black;
+            background-image:
+            radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+            radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+            radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+            radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+            background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+            background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;        }
+
+        th {
+            color:#254441;
+            text-transform:capitalize;
+            text-align:left;
+        }
+        th[colspan="3"] {
+            color:#FF6F59;
+            text-transform:uppercase;
+            text-align: center;
+            font-weight: bold;
+            font-size: larger;
+            padding:10px 10px 10px 10px ;
+            /*padding-top: 20px;*/
+            background-color: #DFDBE5;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            
+
+        }
+        body {
+           /* background-image:url(data:image/jpeg;base64,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) ;
+            background-repeat: no-repeat;
+            background-size:cover;
+           background-color: #fff;
+            background-image:
+             linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+            linear-gradient(#eee .1em, transparent .1em);
+            background-size: 100% 1.2em;*/
+            background-color:black;
+            background-image:
+            radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+            radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+            radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+            radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+            background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+            background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>
+                1.
+            </td>
+            <td>
+                me gustan mucho los video juegos
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2.
+            </td>
+            <td>
+                me gusta ayudar a los demas 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3.
+            </td>
+            <td>
+                me gustan mucho los animales, mas que todo los perros aun que me gustaria tener un gato 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                4.
+            </td>
+            <td>
+                no me gusta la salsa de piña
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5.
+            </td>
+            <td>
+                me da pena hacer nuevos amigos
+            </td>
+        </tr>
+        <tr>
+            <td>
+                6.
+            </td>
+            <td>
+                tengo estatura promedio 
+            </td>
+        </tr>
+
+    </table>
+
+
+</body>
+</html>
